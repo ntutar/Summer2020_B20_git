@@ -9,6 +9,8 @@ public class ZombieAttack {
         int[] inhabitants = new int[8];    for(int i=0; i<inhabitants.length; i++) {
             inhabitants[i] = input.nextInt();
         }    //TODO. Write you code below this line.
+
+
         int cnt = 0, sum = 0;
         int[] num1 = new int[inhabitants.length];
         System.out.println("Day " + cnt + " " + Arrays.toString(inhabitants));
@@ -28,3 +30,5 @@ public class ZombieAttack {
         } while (!Arrays.equals(inhabitants,num1));        System.out.println("---- EXTINCT ----");
     }
 }
+
+
